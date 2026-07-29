@@ -5,12 +5,18 @@
   "license": "ISC",
   "author": "yamuna-mandal",
   "type": "module",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "i": "^0.3.7",
+    "jnpm": "^0.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.5.0",
+    "mongoose": "^9.8.0",
     "nodemon": "^3.1.14"
   }
 }
